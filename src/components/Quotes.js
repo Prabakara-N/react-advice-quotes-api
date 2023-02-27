@@ -31,7 +31,7 @@ const Quotes = ({ quotes, show }) => {
               <p className="quotes" key={index}>
                 {`“ ${quotes.content} ”`}
               </p>
-              <h4 className="id">{`- ${quotes.author}`}</h4>
+              <h4 className="author">{`- ${quotes.author}`}</h4>
               <div className="divider">
                 <img
                   src="https://res.cloudinary.com/daxmjqsy2/image/upload/v1677123255/pattern-divider-mobile_msvzlw.svg"
